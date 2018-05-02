@@ -1,0 +1,3 @@
+Source: tigr
+Version: 1.3
+Description: TIGR is a tiny graphics library, for when you just need to draw something in a window without any fuss. TIGR's core is a simple framebuffer library. On top of that, we provide a few helpers for the common tasks that 2D programs generally need:
