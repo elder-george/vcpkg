@@ -12,11 +12,11 @@
 
 include(vcpkg_common_functions)
 set(SOURCE_PATH ${CURRENT_BUILDTREES_DIR}/src/tigr)
-vcpkg_from_bitbucket(
+vcpkg_from_github(
     OUT_SOURCE_PATH SOURCE_PATH
-    REPO rmitton/tigr
-    REF v1.3
-    SHA512  21f39d807b64d1c3097261735e8b427de2f997ab8299b63acf0529a5e0cfa73559fddb8a5b9c57ea0e586ec412dade480fb46c90a3ba135e0c7f2325de89b75d
+    REPO erkkah/tigr
+    #REF     v1.3
+    #SHA512  c9fba9337848c3d2c2c806f6b1700a387661cc7b
     HEAD_REF master
 )
 
